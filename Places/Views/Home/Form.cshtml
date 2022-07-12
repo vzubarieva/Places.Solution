@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <title>Tell Us About Your Adventures</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+  <h1>Select a city to learn more about my travels</h1>
+  <form action="/journal" method="post">
+    <label for="cityName">City Name</label>
+    <input id="cityName" name="cityname" type="text">
+    <label for="arrival">Arrival Date</label>
+    <input id="arrival" name="arrival" type="number">
+    <label for="departure">Departure Date</label>
+    <input id="departure" name="departure" type="number">
+    <label for="friend">Write a friend's name with whom you were traveling</label>
+    <input id="friend" name="friend" type="text">
+    <button type="submit">Go!</button>
+  </form>
+</body>
+
+</html>
